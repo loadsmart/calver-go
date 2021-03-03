@@ -38,3 +38,7 @@ TODO
 * export as command-line tool
 * add support to other conventions
 
+
+## License
+
+[MIT](./LICENSE)
