@@ -282,7 +282,7 @@ func TestNew_UnsupportedFormat(t *testing.T) {
 func TestVersion_CompareTo(t *testing.T) {
 
 	var tests = []struct {
-		name string
+		name     string
 		v1       Version
 		v2       Version
 		expected int
