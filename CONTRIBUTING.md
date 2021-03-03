@@ -1,4 +1,4 @@
-# Contributing to Loadsmart utils
+# Contributing to calver-go
 
 :tada: First off, thanks for taking the time to contribute! :+1:
 
@@ -26,7 +26,7 @@ Examples of behavior that contributes to creating a positive and sustainable env
 
 ## Pull Request Process
 
-1. Open a Pull request in utils repository for your changes and request for the review from other developers, who may be the file owner or anyone should review this piece of code.
+1. Open a Pull request in calver-go repository for your changes and request for the review from other developers, who may be the file owner or anyone should review this piece of code.
 2. Once the Pull request is approved, you may merge the Pull Request once all checks pass and merge is allowed:tea:. Or if you do not have permission to do that, you may request reviewers or repo owners to merge it for you.
 3. You may merge the Pull Request once all checks pass and merge is allowed :tea:. Or if you do not have permission to do that, you may request reviewers or repo owners to merge it for you.
 4. (Optional) If your branch needs a rebase before merge, you can do this process applying a rebase from its parent branch (i.e. master)
