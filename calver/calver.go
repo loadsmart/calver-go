@@ -61,7 +61,7 @@ func (v *Version) CompareTo(v2 *Version) int {
 func ValidatePattern(pattern string) error {
 	for _, segment := range strings.Split(pattern, ".") {
 		validSegment := false
-		for k, _ := range CONVENTIONS {
+		for k := range CONVENTIONS {
 			if segment == k {
 				validSegment = true
 				break
@@ -117,16 +117,12 @@ func Parse(pattern, value string) (*Version, error) {
 		switch pat {
 		case YYYY.representation, YY.representation, zeroY.representation:
 			year = val
-			break
 		case MM.representation, M0.representation, zeroM.representation:
 			month = val
-			break
 		case DD.representation, D0.representation, zeroD.representation:
 			day = val
-			break
 		case MICRO.representation:
 			micro = val
-			break
 		}
 	}
 

@@ -18,8 +18,8 @@ func TestConvention_Format(t *testing.T) {
 
 func TestConventions(t *testing.T) {
 	var tests = []struct {
-		convention  Convention
-		expectedValue  int
+		convention        Convention
+		expectedValue     int
 		expectedFormatted string
 	}{
 		{
@@ -73,9 +73,9 @@ func TestConventions(t *testing.T) {
 			expectedFormatted: "15",
 		},
 	}
-	
+
 	version := &Version{
-		time: time.Date(2108, 5, 9, 0, 0, 0, 0, time.UTC),
+		time:  time.Date(2108, 5, 9, 0, 0, 0, 0, time.UTC),
 		micro: 15,
 	}
 
