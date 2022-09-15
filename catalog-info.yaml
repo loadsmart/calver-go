@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: calver-go
+  description: Parse and increment version based on calver.org strategy.
+  annotations:
+    github.com/project-slug: loadsmart/calver-go
+  tags:
+    - go
+spec:
+  type: other
+  lifecycle: production
+  owner: eduardocardoso
