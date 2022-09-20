@@ -8,6 +8,6 @@ metadata:
   tags:
     - go
 spec:
-  type: other
+  type: library
   lifecycle: production
-  owner: eduardocardoso
+  owner: developer-productivity
