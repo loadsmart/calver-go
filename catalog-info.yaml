@@ -5,6 +5,7 @@ metadata:
   description: Parse and increment version based on calver.org strategy.
   annotations:
     github.com/project-slug: loadsmart/calver-go
+    opslevel.com/tier: tier_4
   tags:
     - go
 spec:
