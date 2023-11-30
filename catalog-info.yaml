@@ -11,4 +11,4 @@ metadata:
 spec:
   type: library
   lifecycle: production
-  owner: developer-productivity
+  owner: platform-operations
