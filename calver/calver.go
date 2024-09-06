@@ -167,3 +167,23 @@ func NewVersion(pattern string, micro int) (*Version, error) {
 		time:    today(),
 	}, nil
 }
+
+func (v *Version) Time() time.Time {
+	return v.time
+}
+
+func (v *Version) Year() int {
+	return v.time.Year()
+}
+
+func (v *Version) Month() int {
+	return int(v.time.Month())
+}
+
+func (v *Version) Day() int {
+	return v.time.Day()
+}
+
+func (v *Version) Micro() int {
+	return v.micro
+}
